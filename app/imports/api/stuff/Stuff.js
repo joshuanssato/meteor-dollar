@@ -14,6 +14,7 @@ class StuffsCollection {
     this.schema = new SimpleSchema({
       name: String,
       quantity: Number,
+      value: { type: Number, optional: false },
       owner: String,
       condition: {
         type: String,
